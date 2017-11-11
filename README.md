@@ -10,6 +10,8 @@ Simple boilerplate to start using React without 'create-react-app'
 - Eslint with airbnb rules
 - Webpack configuration for ES6 and CSS
 - Webpack dev server
+- Jest configuration for tests
+- Code coverage setup with coveralls
 
 ### Development
 ```
@@ -19,4 +21,9 @@ npm start
 ### Build
 ```
 npm run build
+```
+
+### Run tests
+```
+npm test
 ```
