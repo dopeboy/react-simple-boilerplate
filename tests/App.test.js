@@ -10,7 +10,7 @@ test('should render', () => {
   expect(tree).toMatchSnapshot();
 });
 
-test("countains text 'Hello World!'", () => {
+test("contains text 'Hello World!'", () => {
   const app = shallow(<App />);
   expect(app.text()).toEqual('Hello World!');
 });
