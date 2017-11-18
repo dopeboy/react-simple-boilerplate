@@ -28,7 +28,7 @@ const config = {
 if (process.env.NODE_ENV === 'production') {
   config.plugins.push(
     new webpack.DefinePlugin({
-      'process.env': { 
+      'process.env': {
         NODE_ENV: 'production',
       },
     }),
