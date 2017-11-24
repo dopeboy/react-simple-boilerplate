@@ -4,6 +4,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/jstreats/react-simple-boilerplate/badge.svg?branch=master)](https://coveralls.io/github/jstreats/react-simple-boilerplate?branch=master)
 [![David](https://img.shields.io/david/jstreats/react-simple-boilerplate.svg)]()
 [![David](https://img.shields.io/david/jstreats/react-simple-boilerplate.svg)]()
+[![Maintainability](https://api.codeclimate.com/v1/badges/1e4568c8af4b6df57aef/maintainability)](https://codeclimate.com/github/jstreats/react-simple-boilerplate/maintainability)
 
 Simple boilerplate to start using React without 'create-react-app'
 
