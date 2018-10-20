@@ -1,9 +1,14 @@
-/* globals document */
 import React from 'react';
-import { render } from 'react-dom';
-import App from './App';
+import ReactDOM from 'react-dom';
+import App from './components/wrappers/App';
 
-render(
-  <App />,
-  document.getElementById('app'),
+// Add bootstrap
+//import 'bootstrap/dist/css/bootstrap.css';
+
+// Add our style
+import './assets/style/index.css';
+
+ReactDOM.render(
+    <App/>,
+    document.getElementById('root')
 );

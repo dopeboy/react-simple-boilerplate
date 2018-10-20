@@ -16,7 +16,22 @@ const config = {
     }, {
       test: /\.(css)$/,
       use: ['style-loader', 'css-loader'],
-    }],
+    },
+{
+      test: /\.svg$/,
+      loaders: [
+        'babel-loader',
+        {
+          loader: 'svg-url-loader',
+
+          query: {
+            jsx: true
+          }
+        },
+      ]
+    }
+
+],
   },
   plugins: [
     new HtmlWebpackPlugin({
